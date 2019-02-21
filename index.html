@@ -9,38 +9,54 @@
     <title>Code Review #2 | Survey</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Which ninja turtle are you?</h1>
-      <form id="questionnaire">
-        <div class="form-group">
-          <div class= "question1">
-            <h2>What is your favorite type of pizza?</h2>
-            <div class="radio">
-              <label>
-                <input type="radio" name="pizza" value="rafael" checked>
-                Pepperoni
-              </label>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container">
+            <h1>Which ninja turtle are you?</h1>
+            <form id="questionnaire">
+              <div class="form-group">
+                <div class= "question1">
+                  <h2>What is your favorite type of pizza?</h2>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza" value="rafael" checked>
+                      Pepperoni
+                    </label>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza" value="donatello">
+                      Vegetarian
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza" value="leonardo">
+                      Meat Lovers
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza" value="michaelangelo">
+                      I eat it all bro...
+                    </label>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="pizza" value="donatello">
-                Vegetarian
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="pizza" value="leonardo">
-                Meat Lovers
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="pizza" value="michaelangelo">
-                I eat it all bro...
-              </label>
-            </div>
-          </div>
+          </form>
         </div>
+      </div>
+
+
+
 
         <div class="form-group">
           <div class="question2">
@@ -73,7 +89,7 @@
         </div>
 
         <div class="form-group">
-          <div class="question2">
+          <div class="question3">
             <h2>What is your favorite time of the day?</h2>
             <div class="radio">
               <label>
@@ -103,7 +119,7 @@
         </div>
 
         <div class="form-group">
-          <div class="question2">
+          <div class="question4">
             <h2>Where are you most likely to be found?</h2>
             <div class="radio">
               <label>
@@ -133,7 +149,7 @@
         </div>
 
         <div class="form-group">
-          <div class="question2">
+          <div class="question5">
             <h2>How many drinks would you typically have on a night out?</h2>
             <div class="radio">
               <label>
