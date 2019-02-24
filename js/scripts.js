@@ -1,11 +1,8 @@
 $(function () {
   $("form#questionnaire").submit(function(event) {
     event.preventDefault();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
+    $("#hideMe").hide();
+
     var total = parseInt($("input:radio[name=pizza]:checked").val());
       total += parseInt($("input:radio[name=personality]:checked").val());
       total += parseInt($("input:radio[name=time]:checked").val());

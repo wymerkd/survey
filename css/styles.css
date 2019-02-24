@@ -1,3 +1,28 @@
 #rafael, #donatello, #leonardo, #michaelangelo {
   display: none;
 }
+
+body {
+  background-color: #ac00e6;
+}
+
+h1, form, #btn, p{
+  font-family: 'Bangers', cursive;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  letter-spacing: 2px;
+}
+
+
+form, #btn{
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1, p {
+  font-size: 64px;
+  text-align: center;
+}
