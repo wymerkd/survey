@@ -11,11 +11,11 @@ $(function () {
 
       console.log(total);
 
-      if (total >= 30) {
+      if (total >30) {
         $("#michaelangelo").show();
-      } else if (total >= 24 && total <30) {
+      } else if (total >= 21 && total <=30) {
         $("#leonardo").show();
-      } else if (total >=14 && total <20) {
+      } else if (total >=11 && total <=20) {
         $("#donatello").show();
       } else {
         $("#rafael").show();
